@@ -55,8 +55,8 @@ This project is built with zero build dependencies—no complex bundle steps or 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/arasadaanishkarthik/rakhi-demo.git
-cd rakhi-demo
+git clone https://github.com/arasadaanishkarthik/Rakhi4Cousins.git
+cd Rakhi4Cousins
 ```
 
 ### 2. Run locally
@@ -83,7 +83,7 @@ Then visit [http://localhost:3000](http://localhost:3000) in your browser.
 3. Under **Build and deployment > Source**, select **Deploy from a branch**.
 4. Choose the `main` branch and `/ (root)` folder, then click **Save**.
 5. Within 1–2 minutes, your website will be live at:
-   `https://arasadaanishkarthik.github.io/rakhi-demo/`
+   `https://arasadaanishkarthik.github.io/Rakhi4Cousins/`
 
 ---
 
