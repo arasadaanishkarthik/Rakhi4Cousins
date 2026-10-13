@@ -1269,7 +1269,7 @@ function buildCarousel(){
     card.innerHTML = `
       <div class="photo-frame">
         <img class="memory-photo" src="${m.image}" alt="${m.title}" loading="lazy"
-             onerror="handleImgError(this, `${m.image}`)">
+             onerror="handleImgError(this, '${m.image}')">
       </div>`;
     card.addEventListener('click', ()=>{
       if(parseInt(card.dataset.index) === state.carIndex){ openLightbox(i); }
@@ -1335,7 +1335,7 @@ function buildPolaroidWall(){
     el.innerHTML = `
       <div class="photo-frame">
         <img class="memory-photo" src="${m.image}" alt="${m.title}" loading="lazy"
-             onerror="handleImgError(this, `${m.image}`)">
+             onerror="handleImgError(this, '${m.image}')">
       </div>
       <div class="cap">${m.title}</div>`;
     el.addEventListener('click', ()=>openWallLightbox(i));
